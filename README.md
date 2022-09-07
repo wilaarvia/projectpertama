@@ -1,8 +1,8 @@
 Exploratory-Data-Analysis
-Exploratory Data Analysis Project on Python Haryo Prabowo
+Exploratory Data Analysis Project on Python by wila arvia
 
 Introduction
-In this repository, I will perform Exploratory Data Analysis (EDA) on admission status of high school graduates applying for universities.
+In this repository, I will perform Exploratory Data Analysis (EDA) on .
 
 Steps:
 Missing value check and handling
