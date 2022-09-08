@@ -1,23 +1,24 @@
 # Exploratory-Data-Analysis
-Exploratory Data Analysis Project on Python
-Haryo Prabowo
+Exploratory Data Analysis Project on Python by Wila Arvia
 # Introduction
-In this repository, I will perform Exploratory Data Analysis (EDA) on admission status of high school graduates applying for universities.
+di repository ini , saya akan meanmpilkan Exploratory Data Analysis (EDA) custumer churn pada dataset telco custumer churn
 # Steps:
-* Missing value check and handling
-* Duplicated value check and handling
+* Duplicated value check
+* Missing value check 
 * Statistical summaries of columns
 * Univariate analysis 
 * Bivariate analysis
 * Overall summary/EDA findings
 
-The details can be found on the notebook in this repo
+untuk detail nya dapat dilihat pada notebook di repositery ini
 
-Overall summary/EDA findings
+EDA Conclusion
 
-* The data does not contain major issues. There are only some NULL values and duplicated rows, and have been handled accordingly.
-* Overall, the minimum and maximum values make sense for each column.
-* Overall, all numeric columns have a somewhat symmetrical distributions, with an outlier in recommendation_strength column
-* From the barchart of research experience vs admit status: we found that students who have research experience is more likely to be admitted
-* From correlation heatmap: we note that TOEFL Score, GRE Score and GPA is highly correlated --> choose only one of them for modelling
-* From Pairplot on admit_status: we found many useful insights, with the keypoint being most students that are admitted have high score in TOEFL Score, GRE Score and GPA
+* Data tidak terlalu memiliki masalah karna tidak mengandung missing value atau duplicate value hanya ada beberapa nilai yang kosong yang sudah berhasil di handle .
+* Secara keseluruhan nilai minimum dan maximum masih masuk akal pada setiap kolomnya
+* Pada umumnya data numerical penyebaran data nya tidak simetris.
+* Dari boxplot dapat kita lihat bahwa ada outlier pada kolom `SeniorCitizen` dengan nilai 1 namun nilai pada outlier masih masuk akal dan tidak perlu dibersihkan
+* Kolom `tenure`, `monthly charges`,`total charges` tidak simetris sehingga nantinya kita perlu merubahnya untuk mendekati distribusi normal
+* Dalam hal variabel target, `senior citizen = 0` lebih sering dalam kumpulan data. Tapi, kondisi ketidakseimbangan TIDAK parah sehingga masih bisa diterima
+* Dari heatmap kolom `tenure` dan `totalcharges` memiliki korelasi yang tinggi satu sama lain kita bisa memilih satu dari 2 itu untuk dilakukan modelling karena mereka redundan
+* Pada paiplot kita dapat melihat sebaran data numerical terhadap churning seperti pada tenure penyebaran pelanggan yang churning lebih banyak pada nilai tenure yang kecil.
