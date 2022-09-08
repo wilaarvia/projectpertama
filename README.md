@@ -12,7 +12,7 @@ di repository ini , saya akan meanmpilkan Exploratory Data Analysis (EDA) custum
 
 untuk detail nya dapat dilihat pada notebook di repositery ini
 
-EDA Conclusion
+# EDA Conclusion
 
 * Data tidak terlalu memiliki masalah karna tidak mengandung missing value atau duplicate value hanya ada beberapa nilai yang kosong yang sudah berhasil di handle .
 * Secara keseluruhan nilai minimum dan maximum masih masuk akal pada setiap kolomnya
